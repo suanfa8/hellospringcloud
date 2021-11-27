@@ -31,4 +31,15 @@ public class ProductController {
         map.put("status", true);
         return map;
     }
+
+    @GetMapping("/product/findOne")
+    public Map<String, Object> findOne(String productId) {
+        log.info("商品服务查询商品信息调用成功，当前服务端口：[{}]", port);
+        log.info("当前接收商品信息的 id：[{}]", productId);
+        Map<String, Object> map = new HashMap<>();
+        map.put("msg", "商品服务查询商品信息调用成功，当前服务端口: " + port);
+        map.put("status", true);
+        map.put("productId", productId);
+        return map;
+    }
 }
