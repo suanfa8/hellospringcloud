@@ -9,17 +9,15 @@
         <relativePath/> <!-- lookup parent from repository -->
     </parent>
     <groupId>com.suanfa8</groupId>
-    <artifactId>eurekaserver8761</artifactId>
+    <artifactId>eurekaclient8888</artifactId>
     <version>0.0.1-SNAPSHOT</version>
-    <name>eurekaserver8761</name>
-    <description>eurekaserver8761</description>
-
+    <name>eurekaclient8888</name>
+    <description>eurekaclient8888</description>
     <properties>
         <java.version>1.8</java.version>
         <!-- SpringCloud 中使用具体版本号-->
         <spring.cloud.version>Hoxton.SR6</spring.cloud.version>
     </properties>
-
     <dependencies>
         <dependency>
             <groupId>org.springframework.boot</groupId>
@@ -32,12 +30,11 @@
             <scope>test</scope>
         </dependency>
 
-        <!-- 引入 Eureka Server 组件的依赖 -->
+        <!-- 引入 Eureka Client -->
         <dependency>
             <groupId>org.springframework.cloud</groupId>
-            <artifactId>spring-cloud-starter-netflix-eureka-server</artifactId>
+            <artifactId>spring-cloud-starter-netflix-eureka-client</artifactId>
         </dependency>
-
     </dependencies>
 
     <!-- 全局管理 SpringCloud 版本，并不会引入具体依赖-->
