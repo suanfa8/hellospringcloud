@@ -10,13 +10,13 @@ spring:
       host: localhost
       discovery:
         service-name: ${spring.application.name}
-    gateway:
-      routes:
-        - id: user_route
-          uri: http://localhost:9999/
-          predicates:
-            - Path=/feign/**
-        - id: product_route
-          uri: http://localhost:9998/
-          predicates:
-            - Path=/product/**
+#    gateway:
+#      routes:
+#        - id: user_route
+#          uri: http://localhost:9999/
+#          predicates:
+#            - Path=/feign/**
+#        - id: product_route
+#          uri: http://localhost:9998/
+#          predicates:
+#            - Path=/product/**
