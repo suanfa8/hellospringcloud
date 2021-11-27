@@ -30,12 +30,6 @@
             <scope>test</scope>
         </dependency>
 
-        <!-- 引入统一配置中心 -->
-        <dependency>
-            <groupId>org.springframework.cloud</groupId>
-            <artifactId>spring-cloud-config-server</artifactId>
-        </dependency>
-
         <!-- 引入 consul 依赖-->
         <dependency>
             <groupId>org.springframework.cloud</groupId>
