@@ -25,12 +25,10 @@ public class ProductController {
     // http://localhost:9998/product/findAll
     @GetMapping("/product/findAll")
     public Map<String, Object> findAll() {
-        log.info("商品服务查询所有调用成功,当前服务端口:[{}]", port);
-        Map<String, Object> map = new HashMap<String, Object>();
-        map.put("msg", "服务调用成功,服务提供端口为: " + port);
+        log.info("商品服务查询所有调用成功，当前服务端口:[{}]", port);
+        Map<String, Object> map = new HashMap<>();
+        map.put("msg", "服务调用成功，服务提供端口为: " + port);
         map.put("status", true);
         return map;
     }
-
-
 }
