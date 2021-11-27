@@ -9,10 +9,10 @@
         <relativePath/> <!-- lookup parent from repository -->
     </parent>
     <groupId>com.suanfa8</groupId>
-    <artifactId>consulclient8889</artifactId>
+    <artifactId>configserver7878</artifactId>
     <version>0.0.1-SNAPSHOT</version>
-    <name>consulclient8889</name>
-    <description>consulclient8889</description>
+    <name>configserver7878</name>
+    <description>configserver7878</description>
     <properties>
         <java.version>1.8</java.version>
         <!-- SpringCloud 中使用具体版本号-->
